@@ -1,0 +1,4 @@
+ <h4>list of Customers</h4>
+<div *ngFor="let cusomter of  customers$|async; let i=index;">
+    <span>{{i+1}}.</span>{{cusomter.name}}
+</div>
